@@ -12,8 +12,8 @@ if (ARGUMENT_FACTORIAL <= 1) {
     factorial = 1;
 }else {
     factorial = ARGUMENT_FACTORIAL;
-    while (factorial > 2){
-        factorial--;
+    while (ARGUMENT_FACTORIAL > 2){
+        ARGUMENT_FACTORIAL--;
         factorial *= ARGUMENT_FACTORIAL;
     }
 }
