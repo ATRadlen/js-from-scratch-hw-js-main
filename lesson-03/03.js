@@ -6,4 +6,3 @@ function findLargest(number_1, number_2, number_3) {
     if (number_3 > largest) { largest = number_3; }
     return largest;
 }
-пше
