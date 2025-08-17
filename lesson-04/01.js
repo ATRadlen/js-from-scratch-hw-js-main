@@ -14,5 +14,11 @@ includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
 
 function includesElement(array, element) {
-    return array.indexOf(element) > -1;
+ //   return array.indexOf(element) > -1;
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === element) {
+            return true;
+        }
+    }
+    return false;
 }
