@@ -11,9 +11,16 @@
 */
 
 const game = {
-  resources: {
-    gold: 250,
-    lumber: 100,
-  },
-  addResource() {}
+    resources: {
+        gold: 250,
+        lumber: 100,
+    },
+    addResource(resource, amount) {
+        const objResources = this.resources;
+        if (objResources[resource] !== undefined) {
+            objResouces[resource] += amount;
+        } else {
+            console.log("Invalid resource");
+        }
+    }
 }
