@@ -36,5 +36,5 @@ const gallery = {
 }
 
 function updateGallery(objGallery, pieceTitleKey, details) {
-   objGallery[pieceTitleKey] = details;
+   objGallery["pieceTitleKey"] = details;
 }
